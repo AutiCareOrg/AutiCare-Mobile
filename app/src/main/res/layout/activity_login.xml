@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Voltar"
+            android:src="@android:drawable/ic_media_previous" />
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="364dp"
+            android:layout_height="237dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/auticare_login" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Auticare"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Bem-Vindo de Volta!"
+            android:textColor="#007BFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="@color/black"
+            android:hint="Endereço de e-mail"
+            android:inputType="textEmailAddress"
+            android:padding="4dp"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="@color/black"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:padding="4dp"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="313dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#30D158"
+            android:text="ENTRAR"
+            android:textAllCaps="true"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/textViewRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Não tem uma conta? Cadastrar"
+            android:textColor="#007BFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
